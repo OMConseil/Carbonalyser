@@ -1,11 +1,8 @@
 # Carbonalyser
 
-## Installation
-
-* Firefox: https://addons.mozilla.org/fr/firefox/addon/carbonalyser/
-* Chrome: https://chrome.google.com/webstore/detail/oblfkaonopplpldppkjdhnlcmkhgbcok
-
 ## Overview
+
+Forked from the ShiftProject add-on. 
 
 The add-on "Carbonalyser" allows to visualize the electricity consumption and greenhouse gases (GHG) emissions that your Internet browsing leads to.
 
@@ -17,7 +14,7 @@ To evaluate these impacts, the add-on:
 2. Calculates the electricity consumption this traffic leads to (with the "1byte" model, developed by The Shift Project),
 3. Calculates the GHG emissions this electricity consumption leads to, following the selected location.
 
-## Features
+## Original Features
 
 "Run analysis / Stop analysis" - run or stop the measuring of data volume travelling through the Internet browser. Results shown in the pop-up window are calculated for the cumulated running time.
 
@@ -38,6 +35,22 @@ Results area - features:
 
 The box "How to change that? What responsibility?" links to publications from The Shift Project about environmental impact of our digital uses and solutions we have at individual and collective scales.
 
+
+## New features
+
+Result table - Show non-aggregated results per website (time spent and data consumption);
+
+Export - Download non-aggregated results as a CSV file;
+
+Whitelist - Choose the websites you want to monitor and limit the analysis to selected websites;
+
+ON/OFF whitelist - Turn the whitelist ON or OFF before or during the analysis.
+
+Import whitelist - Import from a CSV file a list of websites you want to monitor and limit the analysis to those websites
+
+Detect user web innactivity  - The extension monitors only the effective time spent on the visited websites
+
+
 ## Privacy
 
 None of your data are collected: all browsing data are analyzed directly on the user device and are not sent or processed anywhere else in any way.
@@ -54,10 +67,14 @@ Questions, bug reports and feature requests are to be addressed to communication
 
 Source code is available in open access: https://github.com/supertanuki/Carbonalyser
  
-## Contributors
+## Original Contributors
 
 Developer: [Richard Hanna](https://twitter.com/richardhanna).
 
 Designer: [Gauthier Roussilhe](http://gauthierroussilhe.com).
 
 In partnership with Maxime Efoui-Hess for [The Shift Project](https://theshiftproject.org/en/home/).
+
+## Contributor
+
+Developer : David Ekchajzer, member of OM conseil
