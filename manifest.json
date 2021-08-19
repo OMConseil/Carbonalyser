@@ -1,21 +1,21 @@
 {
   "manifest_version": 2,
-  "name": "Carbonalyser",
-  "description": "Analyse Internet usage carbon footprint",
-  "author": "TheShiftProject",
-  "version": "1.2.0",
+  "name": "Carbonalyser by OMConseil",
+  "description": "Analyse Internet usage carbon footprint, forked from TheShiftProject",
+  "author": "OMConseil",
+  "version": "0.0.0.3",
   "icons": {
     "48": "icons/icon-on-48.png"
   },
   "permissions": [
-    "storage",
     "webRequest",
-    "<all_urls>"
+    "<all_urls>",
+    "tabs",
+    "idle",
+    "webRequestBlocking"
   ],
   "background": {
-    "scripts": [
-      "script.js"
-    ]
+    "scripts": ["script.js"]
   },
   "browser_action": {
     "browser_style": true,

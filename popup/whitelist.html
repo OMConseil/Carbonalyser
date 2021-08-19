@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="body">
+        <h1>Carbonalyser<sup> by OMconseil</sup></h1>
+
+        <div class="header-links">
+            <a id="informationLink" translate="moreInformation" translate-href="moreInformationUrl" target="_blank"></a>
+            <a id="legalNoticeLink" translate="legalNotice" translate-href="legalNoticeUrl" target="_blank"></a>
+        </div>
+        <hr>
+
+        <div>
+            <button id="returnButton" class="button" translate="returnHome"></button>
+            <button id="onButton" class="button">ON</button>
+            <button id="offButton" class="button">OFF</button>
+        </div>
+        
+        <p translate="whitelistExplained"></p>
+        <hr>
+        <div>
+            <p class="selectRegionHelp" translate="addWebsite"></p>
+            <input type="text" name="addSite" id="addSiteTextBox">
+            <button id="addSiteButton" class="button" translate="Add"></button>
+        </div>
+
+        <div>
+            <table id="whitelistTable">
+                <tr>
+                    <th translate="websiteDataTable" id="WhitelistTabSite"></th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="whiteList.js"></script>
+</body>
+
+</html>

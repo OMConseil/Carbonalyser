@@ -101,5 +101,52 @@
   },
   "resetConfirmation": {
     "message": "Confirm the statistics reset?"
-  }
+  },
+  "export": {
+    "message": "Exporter",
+    "description": "Bouton d'export des données"
+},
+"whitelist": {
+    "message": "Whitelist"
+},
+"sortData": {
+    "message": "Sort by data"
+},
+"sortTime": {
+    "message": "Sort by time"
+},
+"returnHome": {
+    "message": "Return"
+},
+"addWebsite": {
+    "message": "Add website to whitelist"
+},
+"Add": {
+    "message": "Add"
+},
+"whitelistExplained": {
+    "message": "If the whitelist is turned ON, only the whitlisted websites will be watched"
+},
+"website": {
+    "message": "Website"
+},
+"timeInSec": {
+    "message": "Time (secs)"
+},
+"dataInMo": {
+    "message": "Data (MB)"
+},  
+"importW": {
+    "message": "Import a whitelist"
+},
+"websiteDataTable": {
+  "message": "Website"
+},
+"timeDataTable": {
+  "message": "Time (secs)"
+},
+"DataDataTable":{
+  "message": "Data (MB)"
+}
+
 }
